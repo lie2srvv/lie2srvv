@@ -26,7 +26,7 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:Shell:CPU:GPU
 * 🐧 **OS & Desktop**: CachyOS (Arch-based) • `Hyprland` (Wayland) • `Ghostty` + `fish`
 * 📱 **Mobile & Apps**: Android & Desktop apps with Kotlin, Flutter, Dart, TypeScript
 * 🛠️ **Systems & Core**: Low-level networking, proxies & browser hacking with C++, Rust, Go
-* 🌐 **Ecosystem**: Crafting the **LieSystem** (LieVPN, LieCord, LieBrowser)
+* 🌐 **Ecosystem**: Crafting the **LieSystem** (LieVPN, LieCord, LieBrowser, etc.)
 
 ---
 
