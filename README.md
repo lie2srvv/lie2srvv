@@ -70,15 +70,16 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:Shell:CPU:GPU
 
 ### 📦 Featured Projects
 
-<p align="center">
-  <img src="assets/featured_projects.svg" width="100%" alt="Featured Projects: LieVPN, LieBrowser, LieCord" />
-</p>
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[LieVPN](https://github.com/lie2srvv/LieVPN)** | Cross-platform VPN client powered by Clash.Meta & custom routing core | `Flutter` `Dart` `Go` `Rust` |
+| **LieCord** | Custom lightweight Discord client built for speed and flexibility | `Kotlin` `TypeScript` |
+| **[LieBrowser](https://github.com/lie2srvv/LieBrowser)** | Performance and privacy-focused browser built as a custom Firefox fork | `Kotlin` `GeckoView` `Android` |
 
 ---
 
 ### 📊 GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats-extended.vercel.app/api?username=lie2srvv&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Stats" />
+<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=lie2srvv&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
-</p>
+</div>
