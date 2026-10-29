@@ -70,11 +70,23 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:Shell:CPU:GPU
 
 ### 📦 Featured Projects
 
+<p align="center">
+  <a href="https://github.com/lie2srvv/LieVPN">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=lie2srvv&repo=LieVPN&theme=tokyonight&hide_border=true&background=0d1117" alt="LieVPN" />
+  </a>
+  <a href="https://github.com/lie2srvv/LieBrowser">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=lie2srvv&repo=LieBrowser&theme=tokyonight&hide_border=true&background=0d1117" alt="LieBrowser" />
+  </a>
+  <a href="https://github.com/lie2srvv/LieCord">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=lie2srvv&repo=LieCord&theme=tokyonight&hide_border=true&background=0d1117" alt="LieCord" />
+  </a>
+</p>
+
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **[LieVPN](https://github.com/lie2srvv/LieVPN)** | Cross-platform VPN client powered by Clash.Meta & custom routing core | `Flutter` `Dart` `Go` `Rust` |
 | **[LieCord](https://github.com/lie2srvv/LieCord)** | Custom lightweight Discord client built for speed and flexibility | `Kotlin` `TypeScript` |
-| **LieBrowser** | Performance and privacy-focused browser built as a custom Firefox fork | `Kotlin` `GeckoView` `Android` |
+| **[LieBrowser](https://github.com/lie2srvv/LieBrowser)** | Performance and privacy-focused browser built as a custom Firefox fork | `Kotlin` `GeckoView` `Android` |
 
 ---
 
