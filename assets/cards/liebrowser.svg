@@ -1,72 +1,75 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="290" height="245" viewBox="0 0 290 245" fill="none">
   <defs>
-    <!-- Dark glassmorphic background matching GitHub dark theme -->
-    <linearGradient id="bg_browser" x1="0" y1="0" x2="290" y2="245" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#121720"/>
-      <stop offset="100%" stop-color="#0a0d13"/>
+    <!-- M3 Surface Container Gradient -->
+    <linearGradient id="m3_bg_browser" x1="0" y1="0" x2="290" y2="245" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#221517"/>
+      <stop offset="100%" stop-color="#130b0d"/>
     </linearGradient>
 
-    <!-- Subtle corner glow -->
-    <radialGradient id="glow_browser" cx="0" cy="0" r="140" gradientUnits="userSpaceOnUse" gradientTransform="translate(240, 30) scale(130)">
-      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.28"/>
-      <stop offset="50%" stop-color="#f43f5e" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+    <!-- M3 Ambient Dynamic Tint Glow -->
+    <radialGradient id="m3_glow_browser" cx="0" cy="0" r="140" gradientUnits="userSpaceOnUse" gradientTransform="translate(240, 30) scale(130)">
+      <stop offset="0%" stop-color="#ff8b94" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#ff8b94" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#ff8b94" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Glowing Icon Box Background -->
-    <linearGradient id="icon_bg_browser" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.06"/>
-    </linearGradient>
+    <!-- Icon Squircle Clip -->
+    <clipPath id="icon_clip_browser">
+      <rect width="48" height="48" rx="14" />
+    </clipPath>
 
-    <filter id="shadow_browser" x="-20" y="-20" width="84" height="84" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#f43f5e" flood-opacity="0.25"/>
+    <!-- Elevation 1 Shadow -->
+    <filter id="m3_shadow_browser" x="-10" y="-10" width="310" height="265" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000000" flood-opacity="0.25"/>
     </filter>
   </defs>
 
-  <!-- Card Base -->
-  <rect x="1" y="1" width="288" height="243" rx="16" fill="url(#bg_browser)"/>
-  <rect x="1" y="1" width="288" height="243" rx="16" fill="url(#glow_browser)"/>
-  <rect x="1" y="1" width="288" height="243" rx="16" stroke="#252d3a" stroke-width="1.2"/>
-
-  <!-- Icon Box -->
-  <g transform="translate(22, 22)">
-    <rect width="44" height="44" rx="12" fill="url(#icon_bg_browser)" stroke="#f43f5e" stroke-opacity="0.38" stroke-width="1.2" filter="url(#shadow_browser)"/>
-    <circle cx="22" cy="22" r="12" fill="none" stroke="#f43f5e" stroke-width="2.2"/>
-<polygon points="26,18 24,24 18,26 20,20" fill="#f43f5e"/>
-<circle cx="22" cy="22" r="1.5" fill="#ffffff"/>
+  <!-- M3 Card Base (Rounded-24px standard M3 card) -->
+  <g filter="url(#m3_shadow_browser)">
+    <rect x="1" y="1" width="288" height="243" rx="22" fill="url(#m3_bg_browser)"/>
+    <rect x="1" y="1" width="288" height="243" rx="22" fill="url(#m3_glow_browser)"/>
+    <rect x="1" y="1" width="288" height="243" rx="22" stroke="rgba(255, 139, 148, 0.22)" stroke-width="1.2"/>
   </g>
 
-  <!-- Title & Arrow -->
-  <g transform="translate(22, 94)">
-    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#ffffff" letter-spacing="-0.3">LieBrowser</text>
+  <!-- Top: Real App Icon + Open In New Icon -->
+  <g transform="translate(22, 22)">
+    <!-- Icon Container / Background -->
+    <rect width="48" height="48" rx="14" fill="rgba(255, 139, 148, 0.12)" stroke="rgba(255, 139, 148, 0.28)" stroke-width="1"/>
     
-    <!-- External link arrow -->
-    <g transform="translate(242, -14)">
-      <circle cx="2" cy="2" r="11" fill="#1b222d" stroke="#303b4b" stroke-width="1"/>
-      <path d="M-1 -1H5M5 -1V5M5 -1L-2 6" stroke="#94a3b8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Real App Icon -->
+    <g clip-path="url(#icon_clip_browser)">
+      <image href="data:image/png;base64,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" x="0" y="0" width="48" height="48" preserveAspectRatio="xMidYMid slice"/>
+    </g>
+
+    <!-- M3 Floating Action / Open Badge -->
+    <g transform="translate(222, 4)">
+      <rect width="24" height="24" rx="12" fill="rgba(255, 139, 148, 0.14)" stroke="rgba(255, 139, 148, 0.25)" stroke-width="1"/>
+      <path d="M7 7H15M15 7V15M15 7L9 13" stroke="#ff8b94" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
 
-  <!-- Description -->
-  <text x="22" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" line-height="1.5">
+  <!-- Title (Headline Small) -->
+  <g transform="translate(22, 94)">
+    <text x="0" y="0" font-family="'Google Sans', Roboto, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffebee" letter-spacing="-0.2">LieBrowser</text>
+  </g>
+
+  <!-- Description (Body Medium) -->
+  <text x="22" y="123" font-family="'Google Sans Text', Roboto, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#cec2c3" line-height="1.5">
     <tspan x="22" dy="0">Privacy-focused Android browser fork</tspan><tspan x="22" dy="20">of Firefox with GeckoView engine.</tspan><tspan x="22" dy="20">Hardened security &amp; LieWeb search.</tspan>
   </text>
 
-  <!-- Tags / Stack -->
-  <g transform="translate(0, 202)">
+  <!-- M3 Assist Chips (Tech Stack) -->
+  <g transform="translate(0, 201)">
     
-    <rect x="22" y="0" width="69.0" height="22" rx="6" fill="rgba(192,132,252,0.12)" stroke="rgba(192,132,252,0.3)" stroke-width="1"/>
-    <circle cx="30" cy="11" r="2.5" fill="#c084fc"/>
-    <text x="38" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#c084fc">Kotlin</text>
+    <rect x="22" y="0" width="65.2" height="24" rx="8" fill="rgba(255, 139, 148, 0.08)" stroke="rgba(255, 139, 148, 0.22)" stroke-width="1"/>
+    <text x="54.6" y="16" text-anchor="middle" font-family="'Google Sans', Roboto, -apple-system, sans-serif" font-size="11.5" font-weight="500" fill="#ffb4ba">Kotlin</text>
         
-    <rect x="97.0" y="0" width="91.5" height="22" rx="6" fill="rgba(251,146,60,0.12)" stroke="rgba(251,146,60,0.3)" stroke-width="1"/>
-    <circle cx="105.0" cy="11" r="2.5" fill="#fb923c"/>
-    <text x="113.0" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#fb923c">GeckoView</text>
+    <rect x="95.2" y="0" width="86.8" height="24" rx="8" fill="rgba(255, 139, 148, 0.08)" stroke="rgba(255, 139, 148, 0.22)" stroke-width="1"/>
+    <text x="138.6" y="16" text-anchor="middle" font-family="'Google Sans', Roboto, -apple-system, sans-serif" font-size="11.5" font-weight="500" fill="#ffb4ba">GeckoView</text>
         
-    <rect x="194.5" y="0" width="76.5" height="22" rx="6" fill="rgba(74,222,128,0.12)" stroke="rgba(74,222,128,0.3)" stroke-width="1"/>
-    <circle cx="202.5" cy="11" r="2.5" fill="#4ade80"/>
-    <text x="210.5" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#4ade80">Android</text>
+    <rect x="190.0" y="0" width="72.4" height="24" rx="8" fill="rgba(255, 139, 148, 0.08)" stroke="rgba(255, 139, 148, 0.22)" stroke-width="1"/>
+    <text x="226.2" y="16" text-anchor="middle" font-family="'Google Sans', Roboto, -apple-system, sans-serif" font-size="11.5" font-weight="500" fill="#ffb4ba">Android</text>
         
   </g>
 </svg>
