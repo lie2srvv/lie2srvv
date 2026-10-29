@@ -74,7 +74,7 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:Shell:CPU:GPU
 | :--- | :--- | :--- |
 | **[LieVPN](https://github.com/lie2srvv/LieVPN)** | Cross-platform VPN client powered by Clash.Meta & custom routing core | `Flutter` `Dart` `Go` `Rust` |
 | **LieCord** | Custom lightweight Discord client built for speed and flexibility | `Kotlin` `TypeScript` |
-| **LieBrowser** | Performance and privacy-focused browser built as a custom Firefox fork | `C++` `Rust` `Gecko Engine` `JS` |
+| **LieBrowser** | Performance and privacy-focused browser built as a custom Firefox fork | `Kotlin` `GeckoView` `Android` |
 
 ---
 
