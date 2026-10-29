@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="banner.png" alt="Header Banner" width="100%" />
+
+  <br/><br/>
 
   <h1>Hey there, I'm Lie (lie2srvv) 👋</h1>
   <p><b>Software Engineer • Mobile, Systems & Web Developer • Linux Enthusiast</b></p>
@@ -18,9 +21,9 @@
 ### 🚀 About Me
 
 ```bash
-lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:CPU:GPU
+lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:Shell:CPU:GPU
 ```
-* 🐧 **OS & Desktop**: CachyOS (Arch-based) • `Hyprland` (Wayland) • `Ghostty`
+* 🐧 **OS & Desktop**: CachyOS (Arch-based) • `Hyprland` (Wayland) • `Ghostty` + `fish`
 * 📱 **Mobile & Apps**: Android & Desktop apps with Kotlin, Flutter, Dart, TypeScript
 * 🛠️ **Systems & Core**: Low-level networking, proxies & browser hacking with C++, Rust, Go
 * 🌐 **Ecosystem**: Crafting the **Lie-suite** (LieVPN, LieCord, LieBrowser)
@@ -40,6 +43,7 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:CPU:GPU
   <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Fish%20Shell-46B980?style=flat-square&logo=fishshell&logoColor=white" alt="Fish Shell" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
 </p>
 
@@ -57,6 +61,7 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:CPU:GPU
   <img src="https://img.shields.io/badge/Hyprland-00C896?style=flat-square&logo=wayland&logoColor=white" alt="Hyprland" />
   <img src="https://img.shields.io/badge/Wayland-005A9C?style=flat-square&logo=wayland&logoColor=white" alt="Wayland" />
   <img src="https://img.shields.io/badge/Ghostty-FF5F00?style=flat-square&logo=iterm2&logoColor=white" alt="Ghostty" />
+  <img src="https://img.shields.io/badge/Fish-46B980?style=flat-square&logo=fishshell&logoColor=white" alt="Fish" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/NVIDIA%20RTX-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA" />
 </p>
@@ -70,3 +75,13 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:CPU:GPU
 | **[LieVPN](https://github.com/lie2srvv/LieVPN)** | Cross-platform VPN client powered by Clash.Meta & custom routing core | `Flutter` `Dart` `Go` `Rust` |
 | **LieCord** | Custom lightweight Discord client built for speed and flexibility | `Kotlin` `TypeScript` |
 | **LieBrowser** | Performance and privacy-focused browser built as a custom Firefox fork | `C++` `Rust` `Gecko Engine` `JS` |
+
+---
+
+### 📊 GitHub Activity
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lie2srvv&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lie2srvv&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+</div>
