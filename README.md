@@ -71,21 +71,14 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:Shell:CPU:GPU
 ### 📦 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/lie2srvv/LieVPN">
-    <img src="assets/cards/lievpn.svg" width="285" alt="LieVPN - Cross-platform VPN client" />
-  </a>
-  <a href="https://github.com/lie2srvv/LieBrowser">
-    <img src="assets/cards/liebrowser.svg" width="285" alt="LieBrowser - Privacy-focused Android browser" />
-  </a>
-  <a href="https://github.com/lie2srvv/LieCord">
-    <img src="assets/cards/liecord.svg" width="285" alt="LieCord - Lightweight custom Discord client" />
-  </a>
+  <img src="assets/featured_projects.svg" width="100%" alt="Featured Projects: LieVPN, LieBrowser, LieCord" />
 </p>
 
 ---
 
 ### 📊 GitHub Activity
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats-extended.vercel.app/api?username=lie2srvv&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=lie2srvv&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
-</div>
+</p>
