@@ -1,7 +1,7 @@
 <div align="center">
 
   <h1>Hey there, I'm Lie (lie2srvv) 👋</h1>
-  <p><b>Software Engineer • Mobile & Systems Developer • Linux Enthusiast</b></p>
+  <p><b>Software Engineer • Mobile, Systems & Web Developer • Linux Enthusiast</b></p>
 
   <p>
     <a href="https://lie2srvv.com"><img src="https://img.shields.io/badge/Website-lie2srvv.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
@@ -21,23 +21,25 @@
 lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:CPU:GPU
 ```
 * 🐧 **OS & Desktop**: CachyOS (Arch-based) • `Hyprland` (Wayland) • `Ghostty`
-* 📱 **Mobile & Apps**: Cross-platform Android & Desktop development with Flutter, Dart & native tooling
-* 🛠️ **Systems & Core**: C++ systems programming, network proxy routing & lightweight utilities
-* 🌐 **Ecosystem**: Crafting the **Lie-suite** (LieVPN, LieBrowser, LieCord)
+* 📱 **Mobile & Apps**: Android & Desktop apps with Kotlin, Flutter, Dart, TypeScript
+* 🛠️ **Systems & Core**: Low-level networking, proxies & browser hacking with C++, Rust, Go
+* 🌐 **Ecosystem**: Crafting the **Lie-suite** (LieVPN, LieCord, LieBrowser)
 
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
 
-#### **Languages & Frameworks**
+#### **Languages & Core**
 <p>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
   <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
 </p>
 
@@ -65,8 +67,6 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:CPU:GPU
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **[LieVPN](https://github.com/lie2srvv/LieVPN)** | High-performance cross-platform VPN client powered by Clash.Meta core | `Flutter` `Dart` `Clash Core` |
-| **LieCord** | Lightweight custom Discord client and utility suite | `Python` `Desktop` |
-| **LieBrowser** | Minimalist desktop browser focused on performance and low resource usage | `C++` `WebKit` |
-
----
+| **[LieVPN](https://github.com/lie2srvv/LieVPN)** | Cross-platform VPN client powered by Clash.Meta & custom routing core | `Flutter` `Dart` `Go` `Rust` |
+| **LieCord** | Custom lightweight Discord client built for speed and flexibility | `Kotlin` `TypeScript` |
+| **LieBrowser** | Performance and privacy-focused browser built as a custom Firefox fork | `C++` `Rust` `Gecko Engine` `JS` |
