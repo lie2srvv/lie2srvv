@@ -68,14 +68,8 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:CPU:GPU
 | **[LieVPN](https://github.com/lie2srvv/LieVPN)** | High-performance cross-platform VPN client powered by Clash.Meta core | `Flutter` `Dart` `Clash Core` |
 | **LieCord** | Lightweight custom Discord client and utility suite | `Python` `Desktop` |
 | **LieBrowser** | Minimalist desktop browser focused on performance and low resource usage | `C++` `WebKit` |
-| **Hyprland Dotfiles** | Modular desktop setup on CachyOS featuring Hyprland, Waybar & Ghostty | `Hyprland` `Wayland` `Shell` |
 
 ---
 
-### 📊 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lie2srvv&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
-  &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lie2srvv&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
 </div>
