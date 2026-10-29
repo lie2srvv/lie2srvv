@@ -70,6 +70,3 @@ lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:CPU:GPU
 | **LieBrowser** | Minimalist desktop browser focused on performance and low resource usage | `C++` `WebKit` |
 
 ---
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lie2srvv&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
-</div>
