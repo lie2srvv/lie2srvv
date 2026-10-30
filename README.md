@@ -20,13 +20,16 @@
 
 ### 🚀 About Me
 
-```bash
-lie@cachyos:~$ fastfetch --structure Host:OS:WM:Terminal:Shell:CPU:GPU
+```text
+lie@cachyos:~$ fastfetch
+󰌢 Host      › Custom Desktop PC
+󰣇 OS        › CachyOS x86_64
+ WM        › Hyprland 0.56.2 (Wayland)
+ Terminal  › ghostty 1.3.1-arch2.1
+ Shell     › fish 4.9.3
+󰻠 CPU       › AMD Ryzen 7 7800X3D (16) @ 4.20 GHz
+󰻑 GPU       › NVIDIA GeForce RTX 5060 [Discrete]
 ```
-* 🐧 **OS & Desktop**: CachyOS (Arch-based) • `Hyprland` (Wayland) • `Ghostty` + `fish`
-* 📱 **Mobile & Apps**: Android & Desktop apps with Kotlin, Flutter, Dart, TypeScript
-* 🛠️ **Systems & Core**: Low-level networking, proxies & browser hacking with C++, Rust, Go
-* 🌐 **Ecosystem**: Crafting the **LieSystem** (LieVPN, LieCord, LieBrowser, etc.)
 
 ---
 
