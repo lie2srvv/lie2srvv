@@ -18,8 +18,6 @@
 
 ---
 
-### 🚀 About Me
-
 ```text
 lie@cachyos:~$ fastfetch
 Host      › Custom Desktop PC
