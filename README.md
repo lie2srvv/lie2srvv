@@ -78,6 +78,7 @@ GPU       › NVIDIA GeForce RTX 5060 [Discrete]
 | **[LieBrowser](https://github.com/lie2srvv/LieBrowser)** | Performance and privacy-focused browser built as a custom Firefox fork | `Kotlin` `GeckoView` `Android` |
 | **[LieMusic](https://github.com/lie2srvv/LieMusic)** | High-performance music streaming & offline player with 10-band equalizer | `TypeScript` `Rust` `Kotlin` `Tauri` |
 | **[LieMusic](https://github.com/lie2srvv/LieMusic)** | High-performance music streaming & offline player with 10-band equalizer | `TypeScript` `Rust` `Kotlin` `Tauri` |
+| **[LieMusic](https://github.com/lie2srvv/LieMusic)** | High-performance music streaming & offline player with 10-band equalizer | `TypeScript` `Rust` `Kotlin` `Tauri` |
 
 ---
 
