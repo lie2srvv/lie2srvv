@@ -73,7 +73,7 @@ GPU       › NVIDIA GeForce RTX 5060 [Discrete]
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **[LieVPN](https://github.com/lie2srvv/LieVPN)** | Cross-platform VPN client powered by Clash.Meta & custom routing core | `Flutter` `Dart` `Go` `Rust` |
+| **[LieNetwork](https://github.com/lie2srvv/LieNetwork)** | Cross-platform secure network client powered by Clash.Meta & TLS 1.3 tunneling | `Flutter` `Dart` `Go` `Rust` |
 | **[LieCord](https://github.com/lie2srvv/LieCord)** | Custom lightweight Discord client built for speed and flexibility | `Kotlin` `TypeScript` |
 | **[LieBrowser](https://github.com/lie2srvv/LieBrowser)** | Performance and privacy-focused browser built as a custom Firefox fork | `Kotlin` `GeckoView` `Android` |
 | **[LieMusic](https://github.com/lie2srvv/LieMusic)** | High-performance music streaming & offline player with 10-band equalizer | `TypeScript` `Rust` `Kotlin` `Tauri` |
