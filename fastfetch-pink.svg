@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="205" viewBox="0 0 680 205" fill="none">
+  <defs>
+    <linearGradient id="kawaiiGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff9ebb"/>
+      <stop offset="60%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; }
+    .prompt-user { fill: #ff7597; font-weight: 700; font-size: 13.5px; }
+    .prompt-cmd { fill: #ffffff; font-weight: 600; font-size: 13.5px; }
+    .key { fill: #f472b6; font-weight: 600; font-size: 12.5px; }
+    .sep { fill: #6e5468; font-size: 12.5px; }
+    .val { fill: #ffffff; font-size: 12.5px; }
+    .val-hl { fill: #ff9ebb; font-weight: 700; font-size: 12.5px; }
+    .dim { fill: #a692a1; font-size: 12px; }
+  </style>
+
+  <!-- Solid dark background matching GitHub Dark -->
+  <rect width="680" height="205" fill="#0d1117" rx="8"/>
+
+  <!-- Command line prompt -->
+  <g transform="translate(24, 22)">
+    <circle cx="0" cy="0" r="4" fill="#ff7597"/>
+    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#6e5468">:</tspan><tspan fill="#f472b6">~</tspan><tspan fill="#6e5468">$</tspan> <tspan class="prompt-cmd">fastfetch 🌸</tspan></text>
+  </g>
+
+  <!-- CachyOS Logo in Kawaii Pastel Gradient -->
+  <g transform="translate(36, 50) scale(6.4)">
+    <path d="m4.3286 1.9244h8.3458l-2.1127 3.6528h-4.526l-1.8859 3.2605 1.9121 3.306h8.8286l-2.1664 3.7456h-8.5747l-4.1369-7.1525 3.9605-6.8475z" fill="#2d1c28"/>
+    <path d="m3.973 1.8893 6.5887 3.6879 2.1127-3.6528z" fill="#ff7597"/>
+    <path d="m6.0619 12.144-1.9125 3.7456h8.5747l2.1664-3.7456z" fill="#ff7597"/>
+    <path d="m3.973 1.8893 6.5887 3.6879h-4.526l-1.8859 3.2605 1.9121 3.306-1.9125 3.7456-4.1369-7.1525 3.9605-6.8475" fill="url(#kawaiiGrad)"/>
+    <path d="m6.0356 5.5772 6.6388-3.6528-2.1127 3.6528z" fill="#ff7597"/>
+    <path d="m0.0125 8.7368 6.0231-3.1596-1.8859 3.2605z" fill="#ff7597"/>
+    <path d="m6.0356 5.5772-2.0626-3.6879 0.17673 6.9484z" fill="#ff7597"/>
+    <path d="m6.0619 12.144 6.6622 3.7456 2.1664-3.7456z" fill="#c084fc"/>
+    <path d="m4.1498 8.8377-3.1586 1.5811 3.1583 5.4705z" fill="#ff7597"/>
+    <path d="m0.99115 10.419 5.0708 1.7248-1.9121-3.306z" fill="#ff7597"/>
+    <circle cx="16.5" cy="10.6" r="1.4" fill="#ffb3c6"/>
+    <circle cx="13" cy="7.3" r="1.1" fill="#f472b6"/>
+    <circle cx="14.8" cy="3.2" r="0.6" fill="#c084fc"/>
+  </g>
+
+  <!-- Specs Grid: Keys in Pastel Lavender (#c084fc), Values in Crisp White (#ffffff) -->
+  <g transform="translate(186, 58)" class="mono">
+    <!-- OS -->
+    <text x="0" y="0">
+      <tspan class="key">OS       </tspan>
+      <tspan class="sep">› </tspan>
+      <tspan class="val-hl">CachyOS x86_64</tspan>
+      <tspan class="dim"> (Linux 7.2-cachyos)</tspan>
+    </text>
+
+    <!-- WM -->
+    <text x="0" y="21">
+      <tspan class="key">WM       </tspan>
+      <tspan class="sep">› </tspan>
+      <tspan class="val">Hyprland 0.56.2 </tspan>
+      <tspan class="dim">(Wayland rice)</tspan>
+    </text>
+
+    <!-- Terminal & Shell -->
+    <text x="0" y="42">
+      <tspan class="key">Terminal </tspan>
+      <tspan class="sep">› </tspan>
+      <tspan class="val">ghostty 1.3.1 </tspan>
+      <tspan class="sep">• </tspan>
+      <tspan class="key">Shell </tspan>
+      <tspan class="sep">› </tspan>
+      <tspan class="val">fish 4.9.3</tspan>
+    </text>
+
+    <!-- CPU -->
+    <text x="0" y="63">
+      <tspan class="key">CPU      </tspan>
+      <tspan class="sep">› </tspan>
+      <tspan class="val">AMD Ryzen 7 7800X3D (16) @ 4.20 GHz</tspan>
+    </text>
+
+    <!-- GPU -->
+    <text x="0" y="84">
+      <tspan class="key">GPU      </tspan>
+      <tspan class="sep">› </tspan>
+      <tspan class="val">NVIDIA GeForce RTX 5060 </tspan>
+      <tspan class="dim">[Discrete]</tspan>
+    </text>
+
+    <!-- Displays -->
+    <text x="0" y="105">
+      <tspan class="key">Displays </tspan>
+      <tspan class="sep">› </tspan>
+      <tspan class="val">2560x1440 @ 180 Hz </tspan>
+      <tspan class="sep">+ </tspan>
+      <tspan class="val">1080p @ 165 Hz</tspan>
+    </text>
+  </g>
+
+  <!-- Pastel Candy Dots: Pinks, Lilacs, Peach, Cream -->
+  <g transform="translate(186, 188)">
+    <circle cx="8" cy="8" r="6" fill="#ff7597"/>
+    <circle cx="28" cy="8" r="6" fill="#ff9ebb"/>
+    <circle cx="48" cy="8" r="6" fill="#fbcfe8"/>
+    <circle cx="68" cy="8" r="6" fill="#f472b6"/>
+    <circle cx="88" cy="8" r="6" fill="#c084fc"/>
+    <circle cx="108" cy="8" r="6" fill="#d8b4fe"/>
+    <circle cx="128" cy="8" r="6" fill="#fed7aa"/>
+    <circle cx="148" cy="8" r="6" fill="#ffffff"/>
+  </g>
+</svg>
