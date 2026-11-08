@@ -1,49 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="205" viewBox="0 0 680 205" fill="none">
+  <defs>
+    <linearGradient id="kawaiiGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff9ebb"/>
+      <stop offset="60%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+
   <style>
     .mono { font-family: ui-monospace, 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; }
-    .prompt-user { fill: #ff9ebb; font-weight: 700; font-size: 13.5px; }
-    .prompt-cmd { fill: #f5e0dc; font-weight: 600; font-size: 13.5px; }
-    .key { fill: #ff9ebb; font-weight: 600; font-size: 12.5px; }
-    .sep { fill: #6e6a86; font-size: 12.5px; }
-    .val { fill: #cdd6f4; font-size: 12.5px; }
-    .val-hl { fill: #f5c2e7; font-weight: 600; font-size: 12.5px; }
+    .prompt-user { fill: #ff85a2; font-weight: 700; font-size: 13.5px; }
+    .prompt-cmd { fill: #fff0f5; font-weight: 600; font-size: 13.5px; }
+    .key { fill: #ff85a2; font-weight: 600; font-size: 12.5px; }
+    .sep { fill: #86617b; font-size: 12.5px; }
+    .val { fill: #fdf2f8; font-size: 12.5px; }
+    .val-hl { fill: #ffb3c6; font-weight: 700; font-size: 12.5px; }
+    .dim { fill: #9d7b93; font-size: 12px; }
   </style>
 
-  <!-- Seamless background matching GitHub Dark -->
-  <rect width="680" height="205" fill="#0d1117" rx="6"/>
+  <!-- Solid dark background for seamless GitHub embed -->
+  <rect width="680" height="205" fill="#0d1117" rx="8"/>
 
-  <!-- Command line prompt in pastel pink -->
+  <!-- Command line prompt with cute sparkle -->
   <g transform="translate(24, 22)">
-    <circle cx="0" cy="0" r="4" fill="#ff9ebb"/>
-    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#6e6a86">:</tspan><tspan fill="#cba6f7">~</tspan><tspan fill="#6e6a86">$</tspan> <tspan class="prompt-cmd">fastfetch</tspan></text>
+    <circle cx="0" cy="0" r="4" fill="#ff85a2"/>
+    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#86617b">:</tspan><tspan fill="#c084fc">~</tspan><tspan fill="#86617b">$</tspan> <tspan class="prompt-cmd">fastfetch 🌸</tspan></text>
   </g>
 
-  <!-- CachyOS Vector Emblem in Pink & Lavender Theme -->
+  <!-- CachyOS Logo in Kawaii Pastel Gradient -->
   <g transform="translate(36, 50) scale(6.4)">
-    <path d="m4.3286 1.9244h8.3458l-2.1127 3.6528h-4.526l-1.8859 3.2605 1.9121 3.306h8.8286l-2.1664 3.7456h-8.5747l-4.1369-7.1525 3.9605-6.8475z" fill="#2b202a"/>
-    <path d="m3.973 1.8893 6.5887 3.6879 2.1127-3.6528z" fill="#f38ba8"/>
-    <path d="m6.0619 12.144-1.9125 3.7456h8.5747l2.1664-3.7456z" fill="#f38ba8"/>
-    <path d="m3.973 1.8893 6.5887 3.6879h-4.526l-1.8859 3.2605 1.9121 3.306-1.9125 3.7456-4.1369-7.1525 3.9605-6.8475" fill="#ff9ebb"/>
-    <path d="m6.0356 5.5772 6.6388-3.6528-2.1127 3.6528z" fill="#f38ba8"/>
-    <path d="m0.0125 8.7368 6.0231-3.1596-1.8859 3.2605z" fill="#f38ba8"/>
-    <path d="m6.0356 5.5772-2.0626-3.6879 0.17673 6.9484z" fill="#f38ba8"/>
-    <path d="m6.0619 12.144 6.6622 3.7456 2.1664-3.7456z" fill="#ff9ebb"/>
-    <path d="m4.1498 8.8377-3.1586 1.5811 3.1583 5.4705z" fill="#f38ba8"/>
-    <path d="m0.99115 10.419 5.0708 1.7248-1.9121-3.306z" fill="#f38ba8"/>
-    <!-- Orbiting Energy Dots -->
-    <circle cx="16.5" cy="10.6" r="1.4" fill="#ff9ebb"/>
-    <circle cx="13" cy="7.3" r="1.1" fill="#f38ba8"/>
-    <circle cx="14.8" cy="3.2" r="0.6" fill="#cba6f7"/>
+    <path d="m4.3286 1.9244h8.3458l-2.1127 3.6528h-4.526l-1.8859 3.2605 1.9121 3.306h8.8286l-2.1664 3.7456h-8.5747l-4.1369-7.1525 3.9605-6.8475z" fill="#2d1c28"/>
+    <path d="m3.973 1.8893 6.5887 3.6879 2.1127-3.6528z" fill="#ff7597"/>
+    <path d="m6.0619 12.144-1.9125 3.7456h8.5747l2.1664-3.7456z" fill="#ff7597"/>
+    <path d="m3.973 1.8893 6.5887 3.6879h-4.526l-1.8859 3.2605 1.9121 3.306-1.9125 3.7456-4.1369-7.1525 3.9605-6.8475" fill="url(#kawaiiGrad)"/>
+    <path d="m6.0356 5.5772 6.6388-3.6528-2.1127 3.6528z" fill="#ff7597"/>
+    <path d="m0.0125 8.7368 6.0231-3.1596-1.8859 3.2605z" fill="#ff7597"/>
+    <path d="m6.0356 5.5772-2.0626-3.6879 0.17673 6.9484z" fill="#ff7597"/>
+    <path d="m6.0619 12.144 6.6622 3.7456 2.1664-3.7456z" fill="#c084fc"/>
+    <path d="m4.1498 8.8377-3.1586 1.5811 3.1583 5.4705z" fill="#ff7597"/>
+    <path d="m0.99115 10.419 5.0708 1.7248-1.9121-3.306z" fill="#ff7597"/>
+    <!-- Orbiting Pastel Energy Sparkles -->
+    <circle cx="16.5" cy="10.6" r="1.4" fill="#ffb3c6"/>
+    <circle cx="13" cy="7.3" r="1.1" fill="#f472b6"/>
+    <circle cx="14.8" cy="3.2" r="0.6" fill="#c084fc"/>
   </g>
 
-  <!-- Specs Grid -->
+  <!-- Specs Grid with High Contrast Readable Pastels -->
   <g transform="translate(186, 58)" class="mono">
     <!-- OS -->
     <text x="0" y="0">
       <tspan class="key">OS       </tspan>
       <tspan class="sep">› </tspan>
       <tspan class="val-hl">CachyOS x86_64</tspan>
-      <tspan fill="#6e6a86"> (Linux 7.2)</tspan>
+      <tspan class="dim"> (Linux 7.2-cachyos)</tspan>
     </text>
 
     <!-- WM -->
@@ -51,7 +60,7 @@
       <tspan class="key">WM       </tspan>
       <tspan class="sep">› </tspan>
       <tspan class="val">Hyprland 0.56.2 </tspan>
-      <tspan fill="#6e6a86">(Wayland)</tspan>
+      <tspan class="dim">(Wayland rice)</tspan>
     </text>
 
     <!-- Terminal & Shell -->
@@ -77,7 +86,7 @@
       <tspan class="key">GPU      </tspan>
       <tspan class="sep">› </tspan>
       <tspan class="val">NVIDIA GeForce RTX 5060 </tspan>
-      <tspan fill="#6e6a86">[Discrete]</tspan>
+      <tspan class="dim">[Discrete]</tspan>
     </text>
 
     <!-- Displays -->
@@ -90,15 +99,15 @@
     </text>
   </g>
 
-  <!-- Pastel Pink Palette Dots -->
+  <!-- Pastel Candy Dots -->
   <g transform="translate(186, 188)">
-    <circle cx="8" cy="8" r="6" fill="#f38ba8"/>
+    <circle cx="8" cy="8" r="6" fill="#ff7597"/>
     <circle cx="28" cy="8" r="6" fill="#ff9ebb"/>
-    <circle cx="48" cy="8" r="6" fill="#f5c2e7"/>
-    <circle cx="68" cy="8" r="6" fill="#f2cdcd"/>
-    <circle cx="88" cy="8" r="6" fill="#cba6f7"/>
-    <circle cx="108" cy="8" r="6" fill="#b4befe"/>
-    <circle cx="128" cy="8" r="6" fill="#89dceb"/>
-    <circle cx="148" cy="8" r="6" fill="#f5e0dc"/>
+    <circle cx="48" cy="8" r="6" fill="#fbcfe8"/>
+    <circle cx="68" cy="8" r="6" fill="#f472b6"/>
+    <circle cx="88" cy="8" r="6" fill="#c084fc"/>
+    <circle cx="108" cy="8" r="6" fill="#a7f3d0"/>
+    <circle cx="128" cy="8" r="6" fill="#93c5fd"/>
+    <circle cx="148" cy="8" r="6" fill="#fff0f5"/>
   </g>
 </svg>
