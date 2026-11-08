@@ -11,7 +11,7 @@
     .mono { font-family: ui-monospace, 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; }
     .prompt-user { fill: #ff7597; font-weight: 700; font-size: 13.5px; }
     .prompt-cmd { fill: #ffffff; font-weight: 600; font-size: 13.5px; }
-    .key { fill: #c084fc; font-weight: 600; font-size: 12.5px; }
+    .key { fill: #f472b6; font-weight: 600; font-size: 12.5px; }
     .sep { fill: #6e5468; font-size: 12.5px; }
     .val { fill: #ffffff; font-size: 12.5px; }
     .val-hl { fill: #ff9ebb; font-weight: 700; font-size: 12.5px; }
@@ -24,7 +24,7 @@
   <!-- Command line prompt -->
   <g transform="translate(24, 22)">
     <circle cx="0" cy="0" r="4" fill="#ff7597"/>
-    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#6e5468">:</tspan><tspan fill="#c084fc">~</tspan><tspan fill="#6e5468">$</tspan> <tspan class="prompt-cmd">fastfetch 🌸</tspan></text>
+    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#6e5468">:</tspan><tspan fill="#f472b6">~</tspan><tspan fill="#6e5468">$</tspan> <tspan class="prompt-cmd">fastfetch 🌸</tspan></text>
   </g>
 
   <!-- CachyOS Logo in Kawaii Pastel Gradient -->
