@@ -9,22 +9,22 @@
 
   <style>
     .mono { font-family: ui-monospace, 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; }
-    .prompt-user { fill: #ff85a2; font-weight: 700; font-size: 13.5px; }
-    .prompt-cmd { fill: #fff0f5; font-weight: 600; font-size: 13.5px; }
-    .key { fill: #ff85a2; font-weight: 600; font-size: 12.5px; }
-    .sep { fill: #86617b; font-size: 12.5px; }
-    .val { fill: #fdf2f8; font-size: 12.5px; }
-    .val-hl { fill: #ffb3c6; font-weight: 700; font-size: 12.5px; }
-    .dim { fill: #9d7b93; font-size: 12px; }
+    .prompt-user { fill: #ff7597; font-weight: 700; font-size: 13.5px; }
+    .prompt-cmd { fill: #f0f6fc; font-weight: 600; font-size: 13.5px; }
+    .key { fill: #79c0ff; font-weight: 600; font-size: 12.5px; }
+    .sep { fill: #565f89; font-size: 12.5px; }
+    .val { fill: #f0f6fc; font-size: 12.5px; }
+    .val-hl { fill: #ff9ebb; font-weight: 700; font-size: 12.5px; }
+    .dim { fill: #8b949e; font-size: 12px; }
   </style>
 
-  <!-- Solid dark background for seamless GitHub embed -->
+  <!-- Solid dark background matching GitHub Dark -->
   <rect width="680" height="205" fill="#0d1117" rx="8"/>
 
-  <!-- Command line prompt with cute sparkle -->
+  <!-- Command line prompt -->
   <g transform="translate(24, 22)">
-    <circle cx="0" cy="0" r="4" fill="#ff85a2"/>
-    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#86617b">:</tspan><tspan fill="#c084fc">~</tspan><tspan fill="#86617b">$</tspan> <tspan class="prompt-cmd">fastfetch 🌸</tspan></text>
+    <circle cx="0" cy="0" r="4" fill="#ff7597"/>
+    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#565f89">:</tspan><tspan fill="#c084fc">~</tspan><tspan fill="#565f89">$</tspan> <tspan class="prompt-cmd">fastfetch 🌸</tspan></text>
   </g>
 
   <!-- CachyOS Logo in Kawaii Pastel Gradient -->
@@ -39,13 +39,12 @@
     <path d="m6.0619 12.144 6.6622 3.7456 2.1664-3.7456z" fill="#c084fc"/>
     <path d="m4.1498 8.8377-3.1586 1.5811 3.1583 5.4705z" fill="#ff7597"/>
     <path d="m0.99115 10.419 5.0708 1.7248-1.9121-3.306z" fill="#ff7597"/>
-    <!-- Orbiting Pastel Energy Sparkles -->
     <circle cx="16.5" cy="10.6" r="1.4" fill="#ffb3c6"/>
     <circle cx="13" cy="7.3" r="1.1" fill="#f472b6"/>
     <circle cx="14.8" cy="3.2" r="0.6" fill="#c084fc"/>
   </g>
 
-  <!-- Specs Grid with High Contrast Readable Pastels -->
+  <!-- Specs Grid with High Contrast Crisp Font -->
   <g transform="translate(186, 58)" class="mono">
     <!-- OS -->
     <text x="0" y="0">
@@ -107,7 +106,7 @@
     <circle cx="68" cy="8" r="6" fill="#f472b6"/>
     <circle cx="88" cy="8" r="6" fill="#c084fc"/>
     <circle cx="108" cy="8" r="6" fill="#a7f3d0"/>
-    <circle cx="128" cy="8" r="6" fill="#93c5fd"/>
-    <circle cx="148" cy="8" r="6" fill="#fff0f5"/>
+    <circle cx="128" cy="8" r="6" fill="#79c0ff"/>
+    <circle cx="148" cy="8" r="6" fill="#f0f6fc"/>
   </g>
 </svg>
