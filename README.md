@@ -20,7 +20,7 @@
 ---
 
 <div align="center">
-  <img src="fastfetch.svg" alt="Fastfetch" width="680" />
+  <img src="fastfetch.svg?v=pink" alt="Fastfetch" width="680" />
 </div>
 
 <br/>
@@ -57,7 +57,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=lie2srvv&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=ff7597&text_color=c9d1d9&hide_rank=true&include_all_commits=true" alt="Stats" height="175" />
-  <img src="top-langs.svg" alt="Top Languages" height="175" />
+  <img src="top-langs.svg?v=pink" alt="Top Languages" height="175" />
 </div>
 
 <br/>
