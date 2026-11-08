@@ -10,12 +10,12 @@
   <style>
     .mono { font-family: ui-monospace, 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; }
     .prompt-user { fill: #ff7597; font-weight: 700; font-size: 13.5px; }
-    .prompt-cmd { fill: #f0f6fc; font-weight: 600; font-size: 13.5px; }
-    .key { fill: #79c0ff; font-weight: 600; font-size: 12.5px; }
-    .sep { fill: #565f89; font-size: 12.5px; }
-    .val { fill: #f0f6fc; font-size: 12.5px; }
+    .prompt-cmd { fill: #ffffff; font-weight: 600; font-size: 13.5px; }
+    .key { fill: #c084fc; font-weight: 600; font-size: 12.5px; }
+    .sep { fill: #6e5468; font-size: 12.5px; }
+    .val { fill: #ffffff; font-size: 12.5px; }
     .val-hl { fill: #ff9ebb; font-weight: 700; font-size: 12.5px; }
-    .dim { fill: #8b949e; font-size: 12px; }
+    .dim { fill: #a692a1; font-size: 12px; }
   </style>
 
   <!-- Solid dark background matching GitHub Dark -->
@@ -24,7 +24,7 @@
   <!-- Command line prompt -->
   <g transform="translate(24, 22)">
     <circle cx="0" cy="0" r="4" fill="#ff7597"/>
-    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#565f89">:</tspan><tspan fill="#c084fc">~</tspan><tspan fill="#565f89">$</tspan> <tspan class="prompt-cmd">fastfetch 🌸</tspan></text>
+    <text x="12" y="4" class="mono prompt-user">lie@cachyos<tspan fill="#6e5468">:</tspan><tspan fill="#c084fc">~</tspan><tspan fill="#6e5468">$</tspan> <tspan class="prompt-cmd">fastfetch 🌸</tspan></text>
   </g>
 
   <!-- CachyOS Logo in Kawaii Pastel Gradient -->
@@ -44,7 +44,7 @@
     <circle cx="14.8" cy="3.2" r="0.6" fill="#c084fc"/>
   </g>
 
-  <!-- Specs Grid with High Contrast Crisp Font -->
+  <!-- Specs Grid: Keys in Pastel Lavender (#c084fc), Values in Crisp White (#ffffff) -->
   <g transform="translate(186, 58)" class="mono">
     <!-- OS -->
     <text x="0" y="0">
@@ -98,15 +98,15 @@
     </text>
   </g>
 
-  <!-- Pastel Candy Dots -->
+  <!-- Pastel Candy Dots: Pinks, Lilacs, Peach, Cream -->
   <g transform="translate(186, 188)">
     <circle cx="8" cy="8" r="6" fill="#ff7597"/>
     <circle cx="28" cy="8" r="6" fill="#ff9ebb"/>
     <circle cx="48" cy="8" r="6" fill="#fbcfe8"/>
     <circle cx="68" cy="8" r="6" fill="#f472b6"/>
     <circle cx="88" cy="8" r="6" fill="#c084fc"/>
-    <circle cx="108" cy="8" r="6" fill="#a7f3d0"/>
-    <circle cx="128" cy="8" r="6" fill="#79c0ff"/>
-    <circle cx="148" cy="8" r="6" fill="#f0f6fc"/>
+    <circle cx="108" cy="8" r="6" fill="#d8b4fe"/>
+    <circle cx="128" cy="8" r="6" fill="#fed7aa"/>
+    <circle cx="148" cy="8" r="6" fill="#ffffff"/>
   </g>
 </svg>
