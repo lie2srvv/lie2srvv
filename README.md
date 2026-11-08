@@ -19,16 +19,9 @@
 
 ---
 
-```text
-lie@cachyos:~$ fastfetch
-Host      › Custom Desktop PC
-OS        › CachyOS x86_64
-WM        › Hyprland 0.56.2 (Wayland)
-Terminal  › ghostty 1.3.1-arch2.1
-Shell     › fish 4.9.3
-CPU       › AMD Ryzen 7 7800X3D (16) @ 4.20 GHz
-GPU       › NVIDIA GeForce RTX 5060 [Discrete]
-```
+<div align="center">
+  <img src="fastfetch.svg" alt="Fastfetch" width="680" />
+</div>
 
 ---
 
